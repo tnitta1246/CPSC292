@@ -11,3 +11,9 @@ This is practice!
 plot(mtcars$mpg, mtcars$wt)
 ```
 
+Some extra code:
+```{r}
+for(i in 1:10){
+  print(paste("i is", i, "out of 10."))
+}
+```
