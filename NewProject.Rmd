@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+author: "Trisha Nitta"
+output: html_notebook
+---
+
+# Practice Notebook
+
+This is practice!
+```{r}
+plot(mtcars$mpg, mtcars$wt)
+```
+
+Some extra code:
+```{r}
+for(i in 1:10){
+  print(paste("i is", i, "out of 10."))
+}
+```
